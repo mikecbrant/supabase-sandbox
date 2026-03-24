@@ -6,6 +6,7 @@
     "lint": "eslint .",
     "start": "next start",
     "supabase:diff": "npx supabase db diff",
+    "supabase:login": "npx supabase login",
     "supabase:migrations": "npx supabase migration list",
     "supabase:reset": "npx supabase db reset",
     "supabase:start": "npx supabase start",
