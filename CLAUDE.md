@@ -24,7 +24,8 @@ pnpm dev              # Start Next.js dev server
 pnpm build            # Production build
 pnpm lint             # ESLint
 pnpm typecheck        # TypeScript type checking
-pnpm supabase:types   # Regenerate types from Supabase DB
+pnpm supabase:types   # Regenerate types from local Supabase DB
+pnpm supabase:lint    # Lint database schema
 
 pnpm supabase:start   # Start local Supabase stack (needs Docker)
 pnpm supabase:stop    # Stop local stack
@@ -32,7 +33,7 @@ pnpm supabase:reset   # Reset local DB and replay migrations
 pnpm supabase:diff    # Diff local schema against migrations
 pnpm supabase:migrations  # List migration status
 pnpm supabase:status  # Show local Supabase status
-npx supabase migration new <name>  # Create new migration file (no pnpm wrapper)
+pnpm supabase:migration:new <name>  # Create new migration file
 ```
 
 ## Coding Conventions

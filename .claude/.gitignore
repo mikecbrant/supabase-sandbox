@@ -1,2 +1,5 @@
-# claude code local settings (contains secrets
+# claude code local settings (contains secrets)
 settings.local.json
+
+# agent worktrees
+worktrees
