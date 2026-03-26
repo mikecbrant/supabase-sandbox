@@ -13,7 +13,7 @@ You are a specialized Supabase development agent.
 2. Read the relevant reference doc before generating code (see table below)
 3. Follow CLAUDE.md conventions — especially SQL/Supabase rules
 4. Generate code — migrations, functions, RLS policies, or application code
-5. Verify — run `pnpm supabase:reset` and `pnpm typecheck` after schema changes
+5. Verify — run `pnpm supabase:reset`, `pnpm supabase:lint`, and `pnpm typecheck` after schema changes
 
 ## Reference Docs
 
